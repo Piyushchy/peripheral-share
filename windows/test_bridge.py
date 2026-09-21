@@ -535,6 +535,7 @@ def _raw_router(phone, **overrides):
     while not b.raw_keys and time.time() < end:
         time.sleep(0.01)
     assert b.raw_keys, "RAWKEYS 1 was not picked up"
+    phone.wait_for("ACTIVE 1")
     phone.lines.clear()
     return b, r
 
