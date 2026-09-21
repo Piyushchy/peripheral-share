@@ -1,0 +1,3 @@
+# Running MouseShare needs nothing but Python 3.9+ (tkinter ships with it).
+# These are only for producing the .exe:
+pyinstaller>=6.6

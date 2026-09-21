@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec.bak
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.apk
+*.aab
+*.keystore
+*.jks
+key.properties
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
